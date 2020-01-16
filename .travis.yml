@@ -5,6 +5,7 @@ services:
 
 before_install:
   - docker build -t markemp/react-test -f ./client/Dockerfile.dev ./client
+  #- docker build -t markemp/react-test -f ./client/Dockerfile.dev ./client
 
 script:
   - docker run -e CI=true markemp/react-test npm test
