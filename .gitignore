@@ -1,4 +1,8 @@
 /client/node-modules/*
+/worker/node_modules/*
+/server/node_modules/*
+/nginx/node_modules/*
+
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
